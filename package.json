@@ -1,7 +1,13 @@
 {
   "name": "",
   "version": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-forge package"
+  },
   "dependencies": {
-    "electron": "^1.6.11"
+    "electron": "^1.6.11",
+    "monaco-loader": "^0.8.2"
   }
 }
